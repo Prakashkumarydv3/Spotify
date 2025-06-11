@@ -26,7 +26,7 @@ function formatTime(seconds) {
 
 async function getSongs(folder) {
     currFolder = folder;
-    let a = await fetch(`http://127.0.0.1:5500/${folder}/`);
+    let a = await fetch(`https://prakashkumarydv3.github.io/Spotify/songs${folder}/`);
     let response = await a.text();
 
     let div = document.createElement('div');
@@ -88,7 +88,7 @@ const playMusic = (track, pause = false) => {
 
 
 async function displayAlbums() {
-    let a = await fetch(`http://127.0.0.1:5500/songs/`);
+    let a = await fetch(`https://prakashkumarydv3.github.io/Spotify/songs/`);
     let response = await a.text();
 
     let div = document.createElement('div');
