@@ -1,0 +1,15 @@
+.invert{
+    filter: invert(1);
+}
+.m-1{
+    margin: 0.5rem;
+}
+.p-1{
+    padding: 1rem 0 0 1rem;
+}
+.round{
+    border-radius: 0.3rem;
+}
+.bg-grey{
+    background-color: #1f1f1f;
+}
